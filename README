@@ -1,0 +1,8 @@
+=CLSeamCarving=
+
+This code contains the OpenCL (realtime) implementation of the seam carving algorithm. Seam carving allows sizing down an image without removing its keys components, by finding minimal vertical and horizontal cuts throughout the image, and carving them out.
+
+What conforms minimality, can be defined using an energy function and a default is included. The algorithm is implemented using Python and C, in OpenCL, and works in real-time.
+
+Seam carving algorithm is very slow, and carving each pixel requires a few seconds in normal code.
+
