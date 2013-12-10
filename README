@@ -1,4 +1,7 @@
-=CLSeamCarving=
+CLSeamCarving
+=============
+
+http://en.wikipedia.org/wiki/Seam_carving
 
 This code contains the OpenCL (realtime) implementation of the seam carving algorithm. Seam carving allows sizing down an image without removing its keys components, by finding minimal vertical and horizontal cuts throughout the image, and carving them out.
 
